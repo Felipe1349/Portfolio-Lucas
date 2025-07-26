@@ -124,8 +124,8 @@ section {
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: -33rem 0;
-
 }
+
 .home.show-animate .home-content .text-animate h3 {
     animation: homeBgText 6s linear infinite;
     animation-delay: 2s;
@@ -595,8 +595,6 @@ span {
     color:#333;
     border-radius: 2px;
 }
-
-
 
 
 /* ANIMATION RELOAD AND SCROLL */
