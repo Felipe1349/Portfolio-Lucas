@@ -12,32 +12,173 @@
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">Lucas</a>
-        <div class="bx bx-menu" id="menu-icon"></div>
+        <a href="#" class="logo">Lucas.<span class="animate" style="--i:1;"></span></a>
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
             <nav class="navbar">
                 <a href="#home" class="active">Home</a>
-                <a href="#sobremim">Sobre Mim</a>
+                <a href="#about">Sobre Mim</a>
                 <a href="#educacao">Educação</a>
                 <a href="#skills">Skills</a>
-                <a href="#contato">Contato</a>
+                <a href="#contact">Contato</a>
+
+                <span class="active-nav"></span>
+                <span class="animate" style="--i:2;"></span>
             </nav>
     </header>
 
-    <section class="home" id="home">
-        <div class="home-contant">
-            <h1>Olá, sou o <span>Lucas</span></h1>
+    <!-- home section desing -->
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Olá, sou o <span>Lucas</span><span class="animate" style="--i:2;"></span></h1>
             <div class="text-animate">
-                <h3>Especialista em Markting Digital</h3>
+                <h3>Especialista Digital.</h3>
+                <span class="animate" style="--i:3;"></span>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa possimus voluptate quam facere porro voluptatum fugit quidem cum ipsa sit aspernatur ipsum sunt laudantium perferendis officiis, quisquam omnis, provident accusamus.</p>
+            <p>Descubra como encontrar os fornecedores mais baratos da linha Premium para revender possimus voluptate quam facere porro voluptatum fugit quidem cum ipsa sit aspernatur ipsum sunt laudantium perferendis officiis, quisquam omnis, provident accusamus.
+                <span class="animate" style="--i:4;"></span>
+            </p>
             
             <div class="btn-box">
-                <a href="" class="btn">button link</a>
-                <a href="" class="btn">button link</a>
+                <a href="#" class="btn">Garantir Minha Vaga</a>
+                <span class="animate" style="--i:5;"></span>
             </div>
+        </div>
+        <!-- <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div> -->
+
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
+    </section>
+
+    <!-- about section desing -->
+
+    <section class="about" id="about">
+        <h2 class="heading">Sobre <span>Mim</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="about-img">
+            <img src="img/Design sem nome.png" alt="">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Markting Digital! <span class="animate scroll" style="--i:3;"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aliquam eveniet! Ipsam, aliquid cum ab facilis distinctio architecto temporibus sapiente asperiores sed voluptatem doloremque maxime non sit ducimus quasi aliquam.
+                <span class="animate scroll" style="--i:4;"></span>
+            </p>
         </div>
     </section>
 
 
+    <!-- oferta -->
+
+    <section id="oferta-limitada">
+        <div class="contador">
+          <div class="tempo">
+            <span id="dias">00</span>
+            <div>Dias</div>
+          </div>
+          <div class="tempo">
+            <span id="horas">00</span>
+            <div>Horas</div>
+          </div>
+          <div class="tempo">
+            <span id="minutos">00</span>
+            <div>Minutos</div>
+          </div>
+          <div class="tempo">
+            <span id="segundos">00</span>
+            <div>Segundos</div>
+          </div>
+        </div>
+        <h2>OFERTA LIMITADA</h2>
+        <p>VAGAS ABERTAS POR TEMPO RESTRITO!</p>
+        <hr>
+        <p>As inscrições para o <strong>Método LK</strong> estão abertas, mas por tempo limitado.</p>
+        <p>Depois que as vagas se esgotarem, você pode perder a chance de transformar seu posicionamento de expert para líder de mercado.</p>
+    </section>
+    
+    <!-- fim oferta -->
+
+    <!-- perguntas frequentes -->
+    <section class="duvidas" id="duvidas">
+
+        <div class="containetMain">
+            <h2 class="heading">Duvidas <span>Frequentes</span></h2>
+            <!-- 1 pergunta -->
+             <div class="inicioDuvidas">
+                <input type="checkbox" name="pergunta" id="pergunta-01">
+                <label for="pergunta-01">
+                    <h2>01</h2>
+                    <h3>É Dificil achar fornecedores?</h3>
+                </label>
+                <div class="content">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident magnam natus, quae officia architecto dolorem corporis itaque nesciunt rem doloremque, ut non veniam nostrum! Quae alias dolor minima fuga nostrum?</p>
+                </div>
+             </div>
+
+            <!-- 2 pergunta -->
+            <div class="inicioDuvidas">
+                <input type="checkbox" name="pergunta" id="pergunta-02">
+                <label for="pergunta-02">
+                    <h2>02</h2>
+                    <h3>Consigo revender?</h3>
+                </label>
+
+                <div class="content">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident magnam natus, quae officia architecto dolorem corporis itaque nesciunt rem doloremque, ut non veniam nostrum! Quae alias dolor minima fuga nostrum?</p>
+                </div>
+             </div>
+
+
+            <!-- 3 pergunta -->
+            <div class="inicioDuvidas">
+                <input type="checkbox" name="pergunta" id="pergunta-03">
+                <label for="pergunta-03">
+                    <h2>03</h2>
+                    <h3>Preciso investir muito para começar?</h3>
+                </label>
+
+                <div class="content">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident magnam natus, quae officia architecto dolorem corporis itaque nesciunt rem doloremque, ut non veniam nostrum! Quae alias dolor minima fuga nostrum?</p>
+                </div>
+             </div>
+  
+        
+            <!-- 4 pergunta -->
+            <div class="inicioDuvidas">
+                <input type="checkbox" name="pergunta" id="pergunta-04">
+                <label for="pergunta-04">
+                    <h2>04</h2>
+                    <h3>Funciona para qualquer pessoa?</h3>
+                </label>
+
+                <div class="content">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident magnam natus, quae officia architecto dolorem corporis itaque nesciunt rem doloremque, ut non veniam nostrum! Quae alias dolor minima fuga nostrum?</p>
+                </div>
+             </div>
+
+    </div>
+
+</section>
+    <!-- fim das perguntas -->
+
+     <!-- footer desing -->
+      <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Felipe Santos | All Rights Reserved.</p>
+            <!-- <span class="animate scroll" style="--i:1;"></span> -->
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+            <!-- <span class="animate scroll" style="--i:3;"></span> -->
+        </div>
+      </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
